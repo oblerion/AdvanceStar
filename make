@@ -3,7 +3,7 @@ DSRC="src/"
 
 CC=gcc
 if [ -f "src/main.cpp" ];then
-	CC=g++
+	CC=clang++
 fi
 CFLAGS="-g -Wall -lraylib -lGL -lm -lpthread -ldl -lrt -lX11"
 INC=" " 
