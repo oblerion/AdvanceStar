@@ -1,0 +1,3 @@
+This idea for AdvanceStar came to me when I was working on the starcraft demake ... 
+I am huge fan of advance war to.
+I can't shoose,so put them together.
