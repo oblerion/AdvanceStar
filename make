@@ -69,12 +69,12 @@ function link(){
 	fi
 	command $TCC $TLINK $TCFLAGS "-o" $TEXEC; 
 	echo $TCC $TLINK $TCFLAGS "-o" $TEXEC; 
-	if [ -f $EXEC ];then
-		command ./$TEXEC;
-	else 
-		echo " "
-		echo "[[ compile error ]]"
-	fi;
+# 	if [ -f $EXEC ];then
+# 		command ./$TEXEC;
+# 	else
+# 		echo " "
+# 		echo "[[ compile error ]]"
+# 	fi;
 }
 
 if [ $# -eq 0 ];then 

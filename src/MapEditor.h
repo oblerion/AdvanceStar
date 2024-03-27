@@ -10,6 +10,7 @@ struct smapeditor
     SpriteSheet sprc;
     int* tags;
     int curant_tag;
+    int curant_team;
     int offx;
     int offy;
 };
